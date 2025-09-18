@@ -33,7 +33,7 @@
     
     <!-- Hyperlink ke dokumen eksternal-->
     <P>Untuk informasi lebih lanjut, kunjugi <a href="https://id.pinterest.com/pin/394487248632472470/"
-    target="_blank"></a>.</P>
+    target="_blank"> website saya </a>.</P>
 
     <!-- Unordered List untuk menampilkan daftar hobi-->
     <h2>Hobi</h2>
@@ -72,7 +72,19 @@
         <!-- Tambahkan baris lainnya sesuai dengan data jadwal kuliah -->
     </table>
 
-    
+    <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Pesan:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Kirim">
    
     
 /body>
