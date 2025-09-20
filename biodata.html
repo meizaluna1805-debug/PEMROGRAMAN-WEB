@@ -30,7 +30,7 @@
     <!-- Menambahkan Gambar -->
     <h2>Hasil Jepretan Terakhir</h2>
     <p>Berikut ini adalah jepretan terakhir yang telah saya ambil:</p>
-    <img src="Sunset.jpeg" width="300" alt="Gambar Sunset">
+    <img src="Sunset.jpeg" width="200" alt="Gambar Sunset">
 
     <!-- Hyperlink ke  dokumen eksternal -->
     <p>Untuk informasi lebih lanjut, kunjungi <a href="https://id.pinterest.com/pin/95138610873734527/"
@@ -85,6 +85,21 @@
         </tr>
     </table>
 
-    
+    <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Nama Lengkap:</label>
+        <input type="text" id="name" name="fullname" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="emailladdr" required><br><br>
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="usermessage" rows="4" cols="50" 
+    required></textarea><br><br>
+        
+        <button type="submit">Kirim</button>
+    </form>
 </body>
+
 </html>
