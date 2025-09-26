@@ -45,12 +45,29 @@ footer {
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fdf2f8;
+}
+
+main {
+    padding: 0 15px;
+}
+
 header {
+    background-color: #fce4ec;
+    text-align: center;
     margin: 0 0 30px 0;
     padding: 25px 20px;
     border: 3px solid #f48fb1;
-    width: 100%;
     border-radius: 10px;
+}
+
+#judul-utama {
+    color: #880e4f;
+    margin: 0;
 }
 
 nav {
@@ -61,7 +78,21 @@ nav {
     background-color: #fce4ec;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 nav ul li a {
+    text-decoration: none;
+    color: #e91e63;
     margin: 0 5px;
     padding: 10px 15px;
     border: 1px solid transparent;
@@ -69,9 +100,11 @@ nav ul li a {
     display: inline-block;
 }
 
-nav ul li a:hover {
-    border-color: #e91e63;
-    background-color: #fff;
+section {
+    margin: 20px 0;
+    border: 1px solid #f8bbd9;
+    padding: 15px;
+    box-shadow: 0 0 5px #f48fb1;
 }
 
 .kotak-info {
@@ -80,73 +113,8 @@ nav ul li a:hover {
     border: 2px solid #f8bbd9;
     width: 95%;
     max-width: 650px;
-    min-height: 150px;
     border-radius: 8px;
     background-color: white;
-}
-
-.penting {
-    margin: 15px 0;
-    padding: 12px 15px;
-    border-left: 4px solid #e91e63;
-    background-color: #fdf2f8;
-    border-radius: 0 5px 5px 0;
-    width: auto;
-}
-
-.skills-text {
-    margin: 10px 0;
-    padding: 15px;
-    border: 1px dashed #e91e63;
-    border-radius: 6px;
-    background-color: #fce4ec;
-    width: 100%;
-}
-
-footer {
-    margin: 40px 0 0 0;
-    padding: 20px;
-    border: 2px solid #f48fb1;
-    border-radius: 10px;
-    width: 100%;
-}
-
-.kotak-info ul {
-    margin: 15px 0;
-    padding: 0 0 0 25px;
-}
-
-.kotak-info ul li {
-    margin: 8px 0;
-    padding: 8px 12px;
-    border-left: 2px solid #f48fb1;
-    background-color: #fdf2f8;
-    border-radius: 0 4px 4px 0;
-}
-
-.subtitle {
-    color: #ad1457;
-    font-style: italic;
-}
-
-.kotak-info {
-    background-color: white;
-    border-radius: 5px;
-}
-
-.penting {
-    font-weight: bold;
-    color: #c2185b;
-}
-
-.skills-text {
-    color: #e91e63;
-    font-weight: bold;
-}
-
-#judul-utama {
-    color: #880e4f;
-    margin: 0;
 }
 
 #biodata {
@@ -161,6 +129,37 @@ footer {
     border-left: 3px solid #e91e63;
 }
 
+.penting {
+    margin: 15px 0;
+    padding: 12px 15px;
+    border-left: 4px solid #e91e63;
+    background-color: #fdf2f8;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    color: #c2185b;
+}
+
+.skills-text {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px dashed #e91e63;
+    border-radius: 6px;
+    background-color: #fce4ec;
+    color: #e91e63;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fce4ec;
+    text-align: center;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #e91e63;
+}
+
 [href*="instagram"] {
     color: #e91e63;
 }
@@ -170,29 +169,58 @@ footer {
 }
 
 a:hover {
+    text-decoration: underline;
     color: #ff69b4;
+}
+
+nav ul li a:hover {
+    border-color: #e91e63;
+    background-color: #fff;
 }
 
 .kotak-info:hover {
     background-color: #fce4ec;
 }
 
-nav ul li:first-child a {
-    font-weight: bold;
-}
-
-.skills-text::first-line {
-    font-size: 18px;
-    color: #c2185b;
-}
-
 .kotak-info h2::before {
     content: "• ";
     color: #e91e63;
 }
-
-footer {
-    font-size: 20px;
-    color: #e91e63;
+@media screen and (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    header {
+        padding: 15px 10px;
+        margin-bottom: 20px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    
+    .kotak-info {
+        width: 100%;
+        margin: 15px 0;
+        padding: 15px;
+    }
 }
 
+@media screen and (max-width: 480px) {
+    #judul-utama {
+        font-size: 24px;
+    }
+    
+    .kotak-info h2 {
+        font-size: 18px;
+    }
+    
+    nav ul li a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
