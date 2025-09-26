@@ -62,3 +62,83 @@
 - Tautan menuju Instagram dan TikTok.  
 - Ditulis dalam satu paragraf agar ringkas: “Ikuti saya di social media: Instagram, TikTok”.  
 
+
+# Penjelasan CSS
+
+---
+
+**Global Styling – Body**
+
+<img src="8.png"  width="250">
+
+- Selector body → menarget seluruh halaman.  
+- Mengatur font dasar: Arial, fallback ke sans-serif.  
+- Semua teks otomatis pakai font ini.  
+
+---
+
+**Header Sederhana**  
+
+<img src="9.png"  width="250">
+
+- background-color: Pink muda.  
+- padding: 20px ruang dalam.  
+- text-align: Isi header rata tengah.  
+- Header jadi area pembuka yang rapi.  
+
+---
+
+**Navigasi – Daftar Utama**  
+
+<img src="10.png"  width="250">
+
+- Hilangkan bullet default.  
+- Hapus padding bawaan.  
+- Semua item rata tengah.  
+
+---
+
+**Navigasi – Item** 
+
+<img src="11.png"  width="250"> 
+
+- Item tampil berjejer horizontal.  
+- Jarak antar item: 20px.  
+
+---
+
+**Navigasi – Link Dasar**  
+
+<img src="12.png"  width="250"> 
+
+- Link tanpa garis bawah.  
+- Warna teks pink gelap.  
+
+---
+
+**Hover Link Umum**  
+
+<img src="13.png"  width="250"> 
+
+- Saat mouse melayang → link diberi garis bawah.  
+
+---
+
+**Konten Section (Box Model Dasar)**  
+
+<img src="14.png"  width="250"> 
+
+- Spasi luar 20px atas-bawah.  
+- Garis tipis pink.  
+- Ruang dalam 15px.  
+- Bayangan lembut.  
+
+---
+
+**Footer Sederhana**  
+
+<img src="15.png"  width="250"> 
+
+- Latar belakang pink muda.  
+- Isi footer rata tengah.  
+
