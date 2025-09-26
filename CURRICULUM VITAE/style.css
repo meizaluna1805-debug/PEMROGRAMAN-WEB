@@ -1,83 +1,43 @@
-<style>
-    body {
-        font-family: Arial, sans-serif;
-    }
-
-    header {
-        background-color: f0f0f0;
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-        text-align: center;
-    }
-
-    nav ul li {
-        display: inline;
-        margin-right: 20px;
-    }
-
-    nav ul li {
-        text-decoration: none;
-        color: pink
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    section {
-        margin: 20px 0;
-        border: 1px solid #ddd;
-        padding: 15px;
-        box-shadow: 0 0 5px #aaa;
-    }
-
-    footer {
-       background-color: #f0f0f0;
-       padding: 10px;
-       text-align: center;
-    }
-
-.subtitle {
-    font-style: italic;
-    color: #7f8c8d;
-    font-size: 1.2rem;
+body {
+    font-family: Arial, sans-serif;
 }
 
-.info-section {
-   background-color: white;
-   border-radius: 5px;
+header {
+    background-color: #fce4ec;
+    padding: 20px;
+    text-align: center;
 }
 
-.highlight {
-    font-weight: bold;
-    color: #333
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
 }
 
-.skills-text {
-    color: #fda1cce5;
-    font-weight: bold;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-#judul-utama {
-    color: #333;
-    margin: 0;
+nav ul li a {
+    text-decoration: none;
+    color: #e91e63;
 }
 
-#biodata {
-    border-left: 3px solid red;
+a:hover {
+    text-decoration: underline;
 }
 
-#pendidikan {
-    border-left: 3px solid palevioletred;
+section {
+    margin: 20px 0;
+    border: 1px solid #f8bbd9;
+    padding: 15px;
+    box-shadow: 0 0 5px #f48fb1;
 }
 
-#skills {
-    border-left: 3px solid pink;
+footer {
+    background-color: #fce4ec;
+    padding: 10px;
+    text-align: center;
 }
 
-[href]
