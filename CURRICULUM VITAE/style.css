@@ -1,0 +1,83 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: f0f0f0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li {
+        text-decoration: none;
+        color: pink
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    section {
+        margin: 20px 0;
+        border: 1px solid #ddd;
+        padding: 15px;
+        box-shadow: 0 0 5px #aaa;
+    }
+
+    footer {
+       background-color: #f0f0f0;
+       padding: 10px;
+       text-align: center;
+    }
+
+.subtitle {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 1.2rem;
+}
+
+.info-section {
+   background-color: white;
+   border-radius: 5px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #333
+}
+
+.skills-text {
+    color: #fda1cce5;
+    font-weight: bold;
+}
+
+#judul-utama {
+    color: #333;
+    margin: 0;
+}
+
+#biodata {
+    border-left: 3px solid red;
+}
+
+#pendidikan {
+    border-left: 3px solid palevioletred;
+}
+
+#skills {
+    border-left: 3px solid pink;
+}
+
+[href]
