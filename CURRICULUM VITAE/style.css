@@ -123,3 +123,76 @@ footer {
     background-color: #fdf2f8;
     border-radius: 0 4px 4px 0;
 }
+
+.subtitle {
+    color: #ad1457;
+    font-style: italic;
+}
+
+.kotak-info {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.penting {
+    font-weight: bold;
+    color: #c2185b;
+}
+
+.skills-text {
+    color: #e91e63;
+    font-weight: bold;
+}
+
+#judul-utama {
+    color: #880e4f;
+    margin: 0;
+}
+
+#biodata {
+    border-left: 3px solid #ff69b4;
+}
+
+#pendidikan {
+    border-left: 3px solid #ff1493;
+}
+
+#skills {
+    border-left: 3px solid #e91e63;
+}
+
+[href*="instagram"] {
+    color: #e91e63;
+}
+
+[href*="tiktok"] {
+    color: #ad1457;
+}
+
+a:hover {
+    color: #ff69b4;
+}
+
+.kotak-info:hover {
+    background-color: #fce4ec;
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+.skills-text::first-line {
+    font-size: 18px;
+    color: #c2185b;
+}
+
+.kotak-info h2::before {
+    content: "• ";
+    color: #e91e63;
+}
+
+footer {
+    font-size: 20px;
+    color: #e91e63;
+}
+
