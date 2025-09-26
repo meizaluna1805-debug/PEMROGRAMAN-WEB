@@ -41,3 +41,85 @@ footer {
     text-align: center;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 0 30px 0;
+    padding: 25px 20px;
+    border: 3px solid #f48fb1;
+    width: 100%;
+    border-radius: 10px;
+}
+
+nav {
+    margin: 0 0 25px 0;
+    padding: 15px;
+    border: 2px solid #e91e63;
+    border-radius: 8px;
+    background-color: #fce4ec;
+}
+
+nav ul li a {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    border-color: #e91e63;
+    background-color: #fff;
+}
+
+.kotak-info {
+    margin: 25px auto;
+    padding: 20px 25px;
+    border: 2px solid #f8bbd9;
+    width: 95%;
+    max-width: 650px;
+    min-height: 150px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.penting {
+    margin: 15px 0;
+    padding: 12px 15px;
+    border-left: 4px solid #e91e63;
+    background-color: #fdf2f8;
+    border-radius: 0 5px 5px 0;
+    width: auto;
+}
+
+.skills-text {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px dashed #e91e63;
+    border-radius: 6px;
+    background-color: #fce4ec;
+    width: 100%;
+}
+
+footer {
+    margin: 40px 0 0 0;
+    padding: 20px;
+    border: 2px solid #f48fb1;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.kotak-info ul {
+    margin: 15px 0;
+    padding: 0 0 0 25px;
+}
+
+.kotak-info ul li {
+    margin: 8px 0;
+    padding: 8px 12px;
+    border-left: 2px solid #f48fb1;
+    background-color: #fdf2f8;
+    border-radius: 0 4px 4px 0;
+}
